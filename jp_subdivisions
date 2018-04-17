@@ -1,0 +1,66 @@
+<?php
+/**
+ * The list of subdivisions of the United States based on ISO 3166-2:JP standard.
+ *
+ * Source: https://en.wikipedia.org/wiki/ISO_3166-2:JP ISO 3166-2:JP
+ */
+class Listo_jp_Subdivisions implements Listo {
+	private function __construct() {}
+
+	public static function items() {
+		return array(
+			'ai' => _x( "Aichi", 'jp_subdivisions', 'listo' ),
+			'ak' => _x( "Akita", 'jp_subdivisions', 'listo' ),
+			'ao' => _x( "Aomori", 'jp_subdivisions', 'listo' ),
+			'ch' => _x( "Chiba", 'jp_subdivisions', 'listo' ),
+			'eh' => _x( "Ehime", 'jp_subdivisions', 'listo' ),
+			'fu' => _x( "Fukui", 'jp_subdivisions', 'listo' ),
+			'fk' => _x( "Fukuoka", 'jp_subdivisions', 'listo' ),
+			'fa' => _x( "Fukushima", 'jp_subdivisions', 'listo' ),
+			'gf' => _x( "Gifu", 'jp_subdivisions', 'listo' ),
+			'gu' => _x( "Gunma", 'jp_subdivisions', 'listo' ),
+			'hi' => _x( "Hiroshima", 'jp_subdivisions', 'listo' ),
+			'ho' => _x( "Hokkaido", 'jp_subdivisions', 'listo' ),
+			'hy' => _x( "Hyōgo", 'jp_subdivisions', 'listo' ),
+			'ib' => _x( "Ibaraki", 'jp_subdivisions', 'listo' ),
+			'is' => _x( "Ishikawa", 'jp_subdivisions', 'listo' ),
+			'iw' => _x( "Iwate", 'jp_subdivisions', 'listo' ),
+			'ka' => _x( "Kagawa", 'jp_subdivisions', 'listo' ),
+			'ks' => _x( "Kagoshima", 'jp_subdivisions', 'listo' ),
+			'kg' => _x( "Kanagawa", 'jp_subdivisions', 'listo' ),
+			'ko' => _x( "Kōchi", 'jp_subdivisions', 'listo' ),
+			'ku' => _x( "Kumamoto", 'jp_subdivisions', 'listo' ),
+			'ky' => _x( "Kyoto", 'jp_subdivisions', 'listo' ),
+			'mi' => _x( "Mie", 'jp_subdivisions', 'listo' ),
+			'mg' => _x( "Miyagi", 'jp_subdivisions', 'listo' ),
+			'mz' => _x( "Miyazaki", 'jp_subdivisions', 'listo' ),
+			'na' => _x( "Nagano", 'jp_subdivisions', 'listo' ),
+			'ng' => _x( "Nagasaki", 'jp_subdivisions', 'listo' ),
+			'nr' => _x( "Nara", 'jp_subdivisions', 'listo' ),
+			'ni' => _x( "Niigata", 'jp_subdivisions', 'listo' ),
+			'ot' => _x( "Ōita", 'jp_subdivisions', 'listo' ),
+			'ok' => _x( "Okayama", 'jp_subdivisions', 'listo' ),
+			'ow' => _x( "Okinawa", 'jp_subdivisions', 'listo' ),
+			'os' => _x( "Osaka", 'jp_subdivisions', 'listo' ),
+			'sa' => _x( "Saga", 'jp_subdivisions', 'listo' ),
+			'st' => _x( "Saitama", 'jp_subdivisions', 'listo' ),
+			'sg' => _x( "Shiga", 'jp_subdivisions', 'listo' ),
+			'sm' => _x( "Shimane", 'jp_subdivisions', 'listo' ),
+			'sz' => _x( "Shizuoka", 'jp_subdivisions', 'listo' ),
+			'to' => _x( "Tochigi", 'jp_subdivisions', 'listo' ),
+			'tk' => _x( "Tokushima", 'jp_subdivisions', 'listo' ),
+			'ty' => _x( "Tokyo", 'jp_subdivisions', 'listo' ),
+			'tt' => _x( "Tottori", 'jp_subdivisions', 'listo' ),
+			'tm' => _x( "Toyama", 'jp_subdivisions', 'listo' ),
+			'wa' => _x( "Wakayama", 'jp_subdivisions', 'listo' ),
+			'ya' => _x( "Yamagata", 'jp_subdivisions', 'listo' ),
+			'yg' => _x( "Yamaguchi", 'jp_subdivisions', 'listo' ),
+			'ys' => _x( "Yamanashi", 'jp_subdivisions', 'listo' ),
+			
+		);
+	}
+	
+	public static function groups() {
+		return array();
+	} 
+}
